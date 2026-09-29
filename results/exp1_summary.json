@@ -1,0 +1,10 @@
+{
+  "n_total_cases": 196,
+  "n_infeasible": 14,
+  "n_active": 126,
+  "n_inactive": 56,
+  "n_errors": 0,
+  "max_abs_gap": 1.4848357333373405,
+  "mean_abs_gap": 0.2644287751514171,
+  "n_benchmark_cases": 78
+}

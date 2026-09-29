@@ -1,0 +1,19 @@
+{
+  "n_scenarios": 4,
+  "n_metrics": 6,
+  "n_epsilon_values": 18,
+  "n_total_rows": 480,
+  "n_valid": 480,
+  "qualitative_claims": {
+    "mean_plateau_std": 0.0,
+    "plateau_exists": true,
+    "Gaussian_positive_variability_w1": 0.10473947085784693,
+    "Gaussian_positive_tail_w1": 0.590836850805944,
+    "Gaussian_negative_variability_w1": 0.21752221103321784,
+    "Gaussian_negative_tail_w1": 0.6885223309001327,
+    "StudentT5_positive_variability_w1": 0.10473947085784693,
+    "StudentT5_positive_tail_w1": 0.590836850805944,
+    "StudentT5_negative_variability_w1": 0.21752221103321784,
+    "StudentT5_negative_tail_w1": 0.6885223309001327
+  }
+}

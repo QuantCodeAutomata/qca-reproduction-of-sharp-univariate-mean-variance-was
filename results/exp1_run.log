@@ -1,0 +1,61 @@
+/workspace/project/src/wasserstein_bounds.py:315: UserWarning: Could not bracket lambda for epsilon=0.010010000000000002
+  warnings.warn(f"Could not bracket lambda for epsilon={epsilon}")
+/workspace/project/src/wasserstein_bounds.py:315: UserWarning: Could not bracket lambda for epsilon=0.1050985468072375
+  warnings.warn(f"Could not bracket lambda for epsilon={epsilon}")
+/workspace/project/src/wasserstein_bounds.py:315: UserWarning: Could not bracket lambda for epsilon=0.18845389334321597
+  warnings.warn(f"Could not bracket lambda for epsilon={epsilon}")
+/workspace/project/src/wasserstein_bounds.py:315: UserWarning: Could not bracket lambda for epsilon=0.11845768883302132
+  warnings.warn(f"Could not bracket lambda for epsilon={epsilon}")
+/workspace/project/src/wasserstein_bounds.py:315: UserWarning: Could not bracket lambda for epsilon=0.1150985468072375
+  warnings.warn(f"Could not bracket lambda for epsilon={epsilon}")
+/workspace/project/src/wasserstein_bounds.py:315: UserWarning: Could not bracket lambda for epsilon=0.19845389334321598
+  warnings.warn(f"Could not bracket lambda for epsilon={epsilon}")
+/workspace/project/src/wasserstein_bounds.py:315: UserWarning: Could not bracket lambda for epsilon=0.12845768883302133
+  warnings.warn(f"Could not bracket lambda for epsilon={epsilon}")
+/workspace/project/src/wasserstein_bounds.py:315: UserWarning: Could not bracket lambda for epsilon=0.0
+  warnings.warn(f"Could not bracket lambda for epsilon={epsilon}")
+============================================================
+Experiment 1: Univariate Wasserstein Distortion Risk Bounds
+============================================================
+
+Ref: Gaussian(mu=0.0, sigma=1.0), mu=0.0, sigma=1.0
+  GD: eps_min=0.0000, eps_switch=2.0000, c0=0.0000
+  MMD: eps_min=0.0000, eps_switch=0.4040, c0=0.7980
+  ES(alpha=0.05): eps_min=0.0000, eps_switch=1.0230, c0=0.4885
+  ES(alpha=0.25): eps_min=0.0000, eps_switch=0.5151, c0=0.7425
+  VaR+(alpha=0.05): eps_min=0.0000, eps_switch=2.0000, c0=0.0000
+  IQD+(alpha=0.1): eps_min=0.0000, eps_switch=2.0000, c0=0.0000
+  GlueVaR(alpha=0.05,beta=0.1,h1=0.6,h2=0.9): eps_min=0.0000, eps_switch=2.0000, c0=0.0000
+
+Ref: Gaussian(mu=0.0, sigma=1.0), mu=0.1, sigma=1.0
+  GD: eps_min=0.0100, eps_switch=2.0100, c0=0.0000
+  MMD: eps_min=0.0100, eps_switch=0.4140, c0=0.7980
+  ES(alpha=0.05): eps_min=0.0100, eps_switch=1.0330, c0=0.4885
+  ES(alpha=0.25): eps_min=0.0100, eps_switch=0.5251, c0=0.7425
+  VaR+(alpha=0.05): eps_min=0.0100, eps_switch=2.0100, c0=0.0000
+  IQD+(alpha=0.1): eps_min=0.0100, eps_switch=2.0100, c0=0.0000
+  GlueVaR(alpha=0.05,beta=0.1,h1=0.6,h2=0.9): eps_min=0.0100, eps_switch=2.0100, c0=0.0000
+
+Ref: Student-t(mu=0.0, sigma=1.0, nu=5.0), mu=0.0, sigma=1.0
+  GD: eps_min=0.0000, eps_switch=2.0000, c0=0.0000
+  MMD: eps_min=0.0000, eps_switch=0.5255, c0=0.7373
+  ES(alpha=0.05): eps_min=0.0000, eps_switch=0.9423, c0=0.5289
+  ES(alpha=0.25): eps_min=0.0000, eps_switch=0.5923, c0=0.7039
+  VaR+(alpha=0.05): eps_min=0.0000, eps_switch=2.0000, c0=0.0000
+  IQD+(alpha=0.1): eps_min=0.0000, eps_switch=2.0000, c0=0.0000
+  GlueVaR(alpha=0.05,beta=0.1,h1=0.6,h2=0.9): eps_min=0.0000, eps_switch=2.0000, c0=0.0000
+
+Ref: Student-t(mu=0.0, sigma=1.0, nu=5.0), mu=0.1, sigma=1.0
+  GD: eps_min=0.0100, eps_switch=2.0100, c0=0.0000
+  MMD: eps_min=0.0100, eps_switch=0.5355, c0=0.7373
+  ES(alpha=0.05): eps_min=0.0100, eps_switch=0.9523, c0=0.5289
+  ES(alpha=0.25): eps_min=0.0100, eps_switch=0.6023, c0=0.7039
+  VaR+(alpha=0.05): eps_min=0.0100, eps_switch=2.0100, c0=0.0000
+  IQD+(alpha=0.1): eps_min=0.0100, eps_switch=2.0100, c0=0.0000
+  GlueVaR(alpha=0.05,beta=0.1,h1=0.6,h2=0.9): eps_min=0.0100, eps_switch=2.0100, c0=0.0000
+Saved exp1_results.csv, exp1_summary.json. Summary: {'n_total_cases': 196, 'n_infeasible': 14, 'n_active': 126, 'n_inactive': 56, 'n_errors': 0, 'max_abs_gap': 1.4848357333373405, 'mean_abs_gap': 0.2644287751514171, 'n_benchmark_cases': 78}
+Saved: exp1_worst_case_curves.png
+Saved: exp1_quantile_deformation.png
+Saved: exp1_benchmark_gap.png
+
+Exp 1 complete.

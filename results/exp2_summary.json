@@ -1,0 +1,25 @@
+{
+  "gd_validation": {
+    "metric": "GD",
+    "xi": 0.5,
+    "max_diff_to_original_gamma": 0.0006333540014558103,
+    "proj_l2_vs_gamma": 5.682805714896015e-05,
+    "a_xi": -2.7755575615628914e-16,
+    "b_xi": 0.5779279100817656,
+    "worst_case_value": 0.5779279100817656,
+    "formula_value": 0.5779279100817656
+  },
+  "mmd_validation": {
+    "metric": "MMD",
+    "xi": 0.5,
+    "max_diff_to_analytic": 0.0007496104827167116,
+    "l2_diff_to_analytic": 0.00043301102315463665,
+    "analytic_b_xi": 0.8660254037844386,
+    "numeric_b_xi": 0.8660255120375956,
+    "analytic_wc": 0.8660254037844386,
+    "numeric_wc": 0.8660255120375956,
+    "projection_matches_analytic": true
+  },
+  "prop4_satisfied_fraction": 0.6,
+  "pieces_bound_ok_fraction": 0.0
+}

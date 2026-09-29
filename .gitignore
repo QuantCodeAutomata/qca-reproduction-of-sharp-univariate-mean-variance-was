@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / credentials
+.env
+*.env
+*.key
+
+# Raw market-data dumps (never commit exploratory API responses)
+# (results/ deliverables are explicitly exempted — they are produced by experiments)
+data/**/*.csv
+data/**/*.json
+data/**/*.parquet
+
+# MLflow / Optuna artefacts
+mlruns/
+mlflow.db
+optuna.db
+
+# Large / generated binaries
+*.pkl
+*.pickle

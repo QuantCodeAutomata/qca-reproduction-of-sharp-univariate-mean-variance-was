@@ -1,0 +1,34 @@
+nohup: ignoring input
+/workspace/project/src/wasserstein_bounds.py:313: UserWarning: Could not bracket lambda for epsilon=0.213586 (eq at lam=1.2e+20 is still 0.192). Returning largest attempted lambda as conservative estimate.
+  warnings.warn(
+============================================================
+Experiment 2: Unimodal Bounds and Projection Algorithms
+============================================================
+
+1. Analytic example validation (GD and MMD)
+   GD b_xi=0.5779, wc=0.5779
+   MMD analytic_b_xi=0.8660, numeric=0.8660
+   MMD max diff to analytic: 0.0007
+
+2. Step-function approximation study (Prop 4)
+  Step approx: GD
+  Step approx: MMD
+  Step approx: ES(alpha=0.05)
+   Prop 4 satisfied: 60.00% of cases
+   Pieces bound OK: 0.00% of cases
+
+3. Unimodality + Wasserstein combined study
+  Unimodal+Wass: Gaussian(mu=0.0, sig, GD
+  Unimodal+Wass: Gaussian(mu=0.0, sig, MMD
+  Unimodal+Wass: Gaussian(mu=0.0, sig, ES(alpha=0.05)
+  Unimodal+Wass: Student-t(mu=0.0, si, GD
+  Unimodal+Wass: Student-t(mu=0.0, si, MMD
+  Unimodal+Wass: Student-t(mu=0.0, si, ES(alpha=0.05)
+   Total cases: 30
+
+4. Saving results and plots
+Saved: exp2_projections.png
+Saved: exp2_step_approx_errors.png
+Saved exp2 results. MMD analytic match: True
+
+Exp 2 complete.
